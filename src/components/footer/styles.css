@@ -1,0 +1,25 @@
+.footer {
+    background: linear-gradient(115deg, #fcedf2, #bc91cf, #3498db);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .social-icons a:hover {
+    color: rgb(0, 0, 0);
+  }

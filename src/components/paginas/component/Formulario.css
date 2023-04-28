@@ -1,0 +1,35 @@
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  label {
+    font-weight: bold;
+    margin: 0,5rem;
+    text-align: justify;
+  }
+  
+  input,
+  textarea {
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1rem;
+    background: linear-gradient(115deg, #d16ba5, #face9b, #5ffbf1);
+    text-align: justify;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(115deg, #9d66dd, #02f7ad, #3498db);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+  
